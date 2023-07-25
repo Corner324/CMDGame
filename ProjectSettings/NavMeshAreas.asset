@@ -13,8 +13,8 @@ NavMeshProjectSettings:
     cost: 2
   - name: River
     cost: 20
-  - name: 
-    cost: 1
+  - name: Road
+    cost: -10
   - name: 
     cost: 1
   - name: 

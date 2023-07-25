@@ -12,11 +12,11 @@ public class MovePoint : MonoBehaviour
     {
         startPosition = pointer.position; // Запоминаем начальную позицию объекта
     }
-     private void Update()
+
+    private void Update()
     {
-        
-        // Поднимаем и опускаем объект по оси Y
-        pointer.position = new Vector3(startPosition.x, startPosition.y + Mathf.Sin(Time.time * levitationSpeed) * levitationHeight, transform.position.z);
+        // Поднимаем и опускаем объект по оси Y МОЖЕТ СДЕЛАТЬ ЧЕРЕЗ АНИМАЦИИ?
+        //pointer.position = new Vector3(startPosition.x, startPosition.y + Mathf.Sin(Time.time * levitationSpeed) * levitationHeight, transform.position.z);
         transform.position = startPosition;
     }
 }

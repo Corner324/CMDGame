@@ -39,6 +39,8 @@ public class Movement : MonoBehaviour
     public GameObject objPoin;
     Vector2 randomPoint;
 
+    public LineRenderer lineRenderer;
+
     // Запуск игры
     void Awake(){
         Instance = this;
@@ -95,9 +97,21 @@ public class Movement : MonoBehaviour
             agent.SetDestination(randomPoint);
             SmoothAngel();
         }
+
+        if (agent.hasPath)
+        {
+            DrawPath(agent.path);
+        }
         
 
     }
+
+    private void DrawPath(UnityEngine.AI.NavMeshPath path)
+    {
+        lineRenderer.positionCount = path.corners.Length;
+        lineRenderer.SetPositions(path.corners);
+    }
+
 
     Vector2 GetCoordInCircle(){
         Transform circle = pointerPos;
