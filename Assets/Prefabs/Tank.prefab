@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &59252437266179951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6043857386477932370}
+  m_Layer: 0
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6043857386477932370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59252437266179951}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.03, y: 3.11, z: 0}
+  m_LocalScale: {x: 3.1017332, y: 3.1017332, z: 3.1017332}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2013517493911107942}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4378941103166967019
 GameObject:
   m_ObjectHideFlags: 0
@@ -16,6 +47,7 @@ GameObject:
   - component: {fileID: 4993576911151372065}
   - component: {fileID: 328953924024887462}
   - component: {fileID: 2740420297893546617}
+  - component: {fileID: 4238704941477374511}
   m_Layer: 0
   m_Name: Tank
   m_TagString: Tank
@@ -36,8 +68,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2637699540472504648}
+  - {fileID: 6043857386477932370}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6635736285624182573
 SpriteRenderer:
@@ -209,8 +242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5338f6eebb96504c86598b4b93123f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxMoveSpeed: 0.1
-  smoothTime: 5
   maxTurnSpeedAngel: 320
   smoothTimeAngel: 0.01
   isMoving: 0
@@ -330,6 +361,25 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
+--- !u!114 &4238704941477374511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4378941103166967019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6126734eaf8e2b44ba77256d9bfb11f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 7461778539914549240, guid: 849d257c551b1a94993cc89d164aae28, type: 3}
+  missilePrefab: {fileID: 7461778539914549240, guid: f8cb1417be15a7c48bfeb85b72fb60fe, type: 3}
+  firePoint: {fileID: 6043857386477932370}
+  soundClipBullet: {fileID: 8300000, guid: 24331192276e7ad49b70cffc73a907fb, type: 3}
+  soundClipMissile: {fileID: 8300000, guid: ce9e21ff891ea284bb0b821803cb588e, type: 3}
+  bulletForce: 2
+  maxDistance: 100
 --- !u!1 &4806463542529305762
 GameObject:
   m_ObjectHideFlags: 0
