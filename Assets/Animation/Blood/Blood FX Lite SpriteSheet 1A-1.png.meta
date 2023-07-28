@@ -1,0 +1,1306 @@
+fileFormatVersion: 2
+guid: cbc679fce5812974ca763a5ebb76224d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_0
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 58
+        width: 102
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca8c2101f0955e4e8b161ad22c631bd
+      internalID: -1966437162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_1
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 52
+        width: 103
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fc725dc0280dc46ba141445d227a4e
+      internalID: 95728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_2
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 52
+        width: 102
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0dd4e3e5f26a2b4e9c19f75b71576b9
+      internalID: 2014248938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_3
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 52
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5816fbf3bb3fe664287cd1db292e0e5c
+      internalID: -1348131614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_4
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 120
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4680e7f8065f7478b8b02a0163b277
+      internalID: 51425591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_5
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 120
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d69a8a4b6b677b418e5f12898eab369
+      internalID: -1562683682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_6
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 115
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f772f279efd224eaedd5ea14ee856d
+      internalID: -1121613440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_7
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 58
+        width: 68
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d8a187adcab094b902ffabf0e91576
+      internalID: -1785852967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_8
+      rect:
+        serializedVersion: 2
+        x: 3911
+        y: 45
+        width: 75
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97a2c5cd80ce874890a9fc3e90fe4cd
+      internalID: -1259622859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_9
+      rect:
+        serializedVersion: 2
+        x: 4103
+        y: 38
+        width: 82
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af329b00758489748a8bcf4fa06136a8
+      internalID: -848903297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_10
+      rect:
+        serializedVersion: 2
+        x: 4288
+        y: 32
+        width: 89
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052356eafc3e0a643a8d3e0d7136eb5f
+      internalID: -7240537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_11
+      rect:
+        serializedVersion: 2
+        x: 4486
+        y: 31
+        width: 89
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5139a8bc5020df4d95cdefcaaf27f9a
+      internalID: 1993386437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_12
+      rect:
+        serializedVersion: 2
+        x: 4678
+        y: 31
+        width: 92
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e213c9bfffed26642a587beff1550d67
+      internalID: -543227436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_13
+      rect:
+        serializedVersion: 2
+        x: 4863
+        y: 31
+        width: 102
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b287fbf90c514614ebb59dc31fae4c20
+      internalID: -1332920952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_14
+      rect:
+        serializedVersion: 2
+        x: 5054
+        y: 46
+        width: 103
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2881091422d0fe4a98cc95bedd3647d
+      internalID: 2029195859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_15
+      rect:
+        serializedVersion: 2
+        x: 5239
+        y: 45
+        width: 109
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e884bda8af2e824a902cba01804489a
+      internalID: 1554130084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_16
+      rect:
+        serializedVersion: 2
+        x: 5431
+        y: 45
+        width: 109
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7507381902931134c866893618a538e9
+      internalID: 791485542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_17
+      rect:
+        serializedVersion: 2
+        x: 5622
+        y: 45
+        width: 116
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10bf5b7f507b3f45ba3ca74aef87174
+      internalID: -1550028581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_18
+      rect:
+        serializedVersion: 2
+        x: 5834
+        y: 45
+        width: 96
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b882061799fdb46b8fe61be50c638b
+      internalID: -2064910208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_19
+      rect:
+        serializedVersion: 2
+        x: 6040
+        y: 100
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c373865d9dc3de43b44c6c44d2680a0
+      internalID: 1551490445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_20
+      rect:
+        serializedVersion: 2
+        x: 6758
+        y: 55
+        width: 123
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc9a9aff11d5c049abd9525620ec97b
+      internalID: -2022389503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_21
+      rect:
+        serializedVersion: 2
+        x: 6943
+        y: 45
+        width: 150
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc4217a40b535447ac1b20d3dfaa933
+      internalID: -465937015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_22
+      rect:
+        serializedVersion: 2
+        x: 7135
+        y: 38
+        width: 150
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b355f6bda98533e4b97e2bc7efafb6ec
+      internalID: -1176257908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_23
+      rect:
+        serializedVersion: 2
+        x: 7320
+        y: 38
+        width: 157
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5240788e17b760479686ed451b25da9
+      internalID: -1690840266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_24
+      rect:
+        serializedVersion: 2
+        x: 7511
+        y: 38
+        width: 109
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f268e7c75ac1b6409908e8fa49166ea
+      internalID: -429255808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_25
+      rect:
+        serializedVersion: 2
+        x: 7704
+        y: 38
+        width: 108
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd57d29d53c2d84f9f559aa562e18c1
+      internalID: 1090227676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_26
+      rect:
+        serializedVersion: 2
+        x: 8661
+        y: 52
+        width: 164
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ee594b363646c4e88330841aa1447c
+      internalID: 712721588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_27
+      rect:
+        serializedVersion: 2
+        x: 8852
+        y: 52
+        width: 171
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8353c94a1d036e94c92a6a5c92c41024
+      internalID: 896506108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_28
+      rect:
+        serializedVersion: 2
+        x: 9037
+        y: 52
+        width: 178
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b325144ba5d86f40bc35c5896eb4612
+      internalID: 1831106559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_29
+      rect:
+        serializedVersion: 2
+        x: 9229
+        y: 52
+        width: 178
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4fb8ec279a50c479e80129c9c4d052
+      internalID: 1153458336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_30
+      rect:
+        serializedVersion: 2
+        x: 9421
+        y: 52
+        width: 177
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df08e13f79f84e4dac2698915b03397
+      internalID: 1175839376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_31
+      rect:
+        serializedVersion: 2
+        x: 9612
+        y: 52
+        width: 185
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37101e83c9b6f6847af8057e6fafbf6a
+      internalID: 1087808702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_32
+      rect:
+        serializedVersion: 2
+        x: 9804
+        y: 52
+        width: 178
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a36aac9788b354b8aaecfbeb635070
+      internalID: -889930849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_33
+      rect:
+        serializedVersion: 2
+        x: 9995
+        y: 52
+        width: 178
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda0970fb0631fc45857a2a875122dcc
+      internalID: 799267470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_34
+      rect:
+        serializedVersion: 2
+        x: 10187
+        y: 52
+        width: 178
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a7bd6ab0aaa844296e8869f18b33d0
+      internalID: 1665663011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_35
+      rect:
+        serializedVersion: 2
+        x: 10379
+        y: 51
+        width: 383
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1adcc9117a230488fb6a9c2f4c1016
+      internalID: -516549976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_36
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 58
+        width: 76
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c7f822d435f3441875d2a4525d4856
+      internalID: -631912716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_37
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 52
+        width: 95
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e810aa9efc82d0243b6731a168d1f4b6
+      internalID: 1424904216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_38
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 86
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b244f61a02a76443a8937fa6cc86d03
+      internalID: -1509166898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_39
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 52
+        width: 95
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69bf0e3d39e91748a67fcc615702234
+      internalID: 457851246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_40
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 86
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae51af2b84986e4f9d577c69b71cc89
+      internalID: -1176380547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_41
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 55
+        width: 91
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5728ce7c29ab58c4ea7e8fd9c06f37d5
+      internalID: -1552633319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_42
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 88
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319975d8b0da94947993d5b4f9a4f52d
+      internalID: 389238528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_43
+      rect:
+        serializedVersion: 2
+        x: 3521
+        y: 58
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cb338e1008bc04aa12d6d543adaf7e
+      internalID: -1690854911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_44
+      rect:
+        serializedVersion: 2
+        x: 6033
+        y: 52
+        width: 75
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df23497f577ea74685a06add7cba039
+      internalID: -1486802863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_45
+      rect:
+        serializedVersion: 2
+        x: 6616
+        y: 58
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14b2fea0a45df344a08634f94bfb117
+      internalID: -1442468001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_46
+      rect:
+        serializedVersion: 2
+        x: 8504
+        y: 52
+        width: 88
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c741882dad2c3454c8f5885bebd757e9
+      internalID: 2085981524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_47
+      rect:
+        serializedVersion: 2
+        x: 11398
+        y: 52
+        width: 89
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b2295ac1d18db4094da66e869c9bc7
+      internalID: 1883216145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_48
+      rect:
+        serializedVersion: 2
+        x: 11590
+        y: 51
+        width: 89
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b0798e305321f459cc8cefbca2968d
+      internalID: -1544144458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_49
+      rect:
+        serializedVersion: 2
+        x: 11782
+        y: 52
+        width: 88
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63d0fc3d4e965f46bdc3f4e0f68a7ea
+      internalID: -1399946049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_50
+      rect:
+        serializedVersion: 2
+        x: 11974
+        y: 52
+        width: 88
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7115e493c7c47bd46914074326e00efe
+      internalID: 1912970811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_51
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 58
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bb9df4ba060ec4dbc512feb1268954
+      internalID: 456882618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood FX Lite SpriteSheet 1A-1_52
+      rect:
+        serializedVersion: 2
+        x: 7627
+        y: 46
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69faa7e911f1bf146aa955650e398d59
+      internalID: -2006775743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Blood FX Lite SpriteSheet 1A-1_0: -1966437162
+      Blood FX Lite SpriteSheet 1A-1_1: 95728
+      Blood FX Lite SpriteSheet 1A-1_10: -7240537
+      Blood FX Lite SpriteSheet 1A-1_11: 1993386437
+      Blood FX Lite SpriteSheet 1A-1_12: -543227436
+      Blood FX Lite SpriteSheet 1A-1_13: -1332920952
+      Blood FX Lite SpriteSheet 1A-1_14: 2029195859
+      Blood FX Lite SpriteSheet 1A-1_15: 1554130084
+      Blood FX Lite SpriteSheet 1A-1_16: 791485542
+      Blood FX Lite SpriteSheet 1A-1_17: -1550028581
+      Blood FX Lite SpriteSheet 1A-1_18: -2064910208
+      Blood FX Lite SpriteSheet 1A-1_19: 1551490445
+      Blood FX Lite SpriteSheet 1A-1_2: 2014248938
+      Blood FX Lite SpriteSheet 1A-1_20: -2022389503
+      Blood FX Lite SpriteSheet 1A-1_21: -465937015
+      Blood FX Lite SpriteSheet 1A-1_22: -1176257908
+      Blood FX Lite SpriteSheet 1A-1_23: -1690840266
+      Blood FX Lite SpriteSheet 1A-1_24: -429255808
+      Blood FX Lite SpriteSheet 1A-1_25: 1090227676
+      Blood FX Lite SpriteSheet 1A-1_26: 712721588
+      Blood FX Lite SpriteSheet 1A-1_27: 896506108
+      Blood FX Lite SpriteSheet 1A-1_28: 1831106559
+      Blood FX Lite SpriteSheet 1A-1_29: 1153458336
+      Blood FX Lite SpriteSheet 1A-1_3: -1348131614
+      Blood FX Lite SpriteSheet 1A-1_30: 1175839376
+      Blood FX Lite SpriteSheet 1A-1_31: 1087808702
+      Blood FX Lite SpriteSheet 1A-1_32: -889930849
+      Blood FX Lite SpriteSheet 1A-1_33: 799267470
+      Blood FX Lite SpriteSheet 1A-1_34: 1665663011
+      Blood FX Lite SpriteSheet 1A-1_35: -516549976
+      Blood FX Lite SpriteSheet 1A-1_36: -631912716
+      Blood FX Lite SpriteSheet 1A-1_37: 1424904216
+      Blood FX Lite SpriteSheet 1A-1_38: -1509166898
+      Blood FX Lite SpriteSheet 1A-1_39: 457851246
+      Blood FX Lite SpriteSheet 1A-1_4: 51425591
+      Blood FX Lite SpriteSheet 1A-1_40: -1176380547
+      Blood FX Lite SpriteSheet 1A-1_41: -1552633319
+      Blood FX Lite SpriteSheet 1A-1_42: 389238528
+      Blood FX Lite SpriteSheet 1A-1_43: -1690854911
+      Blood FX Lite SpriteSheet 1A-1_44: -1486802863
+      Blood FX Lite SpriteSheet 1A-1_45: -1442468001
+      Blood FX Lite SpriteSheet 1A-1_46: 2085981524
+      Blood FX Lite SpriteSheet 1A-1_47: 1883216145
+      Blood FX Lite SpriteSheet 1A-1_48: -1544144458
+      Blood FX Lite SpriteSheet 1A-1_49: -1399946049
+      Blood FX Lite SpriteSheet 1A-1_5: -1562683682
+      Blood FX Lite SpriteSheet 1A-1_50: 1912970811
+      Blood FX Lite SpriteSheet 1A-1_51: 456882618
+      Blood FX Lite SpriteSheet 1A-1_52: -2006775743
+      Blood FX Lite SpriteSheet 1A-1_6: -1121613440
+      Blood FX Lite SpriteSheet 1A-1_7: -1785852967
+      Blood FX Lite SpriteSheet 1A-1_8: -1259622859
+      Blood FX Lite SpriteSheet 1A-1_9: -848903297
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

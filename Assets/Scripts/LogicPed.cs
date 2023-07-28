@@ -7,6 +7,9 @@ using TMPro;
 public class LogicPed: MonoBehaviour
 {
 
+
+    private TextMeshPro score;
+
     // Запуск игры
     void Awake(){
 
@@ -16,7 +19,10 @@ public class LogicPed: MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {   
-  
+        if(transform.childCount > 0){
+            score = transform.GetChild(0).GetComponent<TextMeshPro>();
+            score.text = "0";
+        }
     }
 
 

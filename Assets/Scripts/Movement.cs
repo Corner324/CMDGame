@@ -7,18 +7,11 @@ using TMPro;
 public class Movement : MonoBehaviour
 {
 
-    private Transform pointerPos;
-    private TextMeshPro score;
-
-    public float maxMoveSpeed = 0.1f;
-    public float smoothTime = 5f;
-    [Space]
+    private Transform pointerPos; // Позиция указателя
     
-    public float maxTurnSpeedAngel=320;
+    Vector3 currentDirection;
+    public float maxTurnSpeedAngel = 320;
     public float smoothTimeAngel = 0.01f;
-
-    Vector2 currentVelocity;
-    Vector2 mousePosition;
     float currentVelocityAngel;
     float angle;
 
@@ -27,12 +20,6 @@ public class Movement : MonoBehaviour
 
     [Space]
     UnityEngine.AI.NavMeshAgent agent;
-    Vector2 startPos;
-    Vector2 endPos;
-
-    Vector3 currentDirection;
-
-    public static Movement Instance {get; set;}
 
     Vector3 position;
 
@@ -40,6 +27,8 @@ public class Movement : MonoBehaviour
     Vector2 randomPoint;
 
     public LineRenderer lineRenderer;
+
+    public static Movement Instance {get; set;}
 
     // Запуск игры
     void Awake(){
@@ -57,10 +46,6 @@ public class Movement : MonoBehaviour
         isMoving = false;
         pointerPos = GameObject.Find("Pointer").transform;
 
-        if(transform.childCount > 0){
-            score = transform.GetChild(0).GetComponent<TextMeshPro>();
-            score.text = "0";
-        }
         
         if(gameObject.CompareTag("Car")){
             agent.speed = 0.5f;
@@ -79,7 +64,7 @@ public class Movement : MonoBehaviour
     {   
         if (Vector3.Distance(pointerPos.position, transform.position) > 1.0f){
             isMoving = true;
-            score.text = "Go " + isMoving.ToString();
+            //score.text = "Go " + isMoving.ToString();
             agent.SetDestination(pointerPos.position);
         
             SmoothAngel();
@@ -89,7 +74,7 @@ public class Movement : MonoBehaviour
         {
             isMoving = false;
             print("Nearby");
-            score.text = "Nearby " + isMoving.ToString();
+            //score.text = "Nearby " + isMoving.ToString();
             if (!lockPoint){
                 randomPoint = GetCoordInCircle();
                 lockPoint = true;
@@ -119,8 +104,8 @@ public class Movement : MonoBehaviour
         float centerY = circle.position.y;
         float radius = 0.5f;
 
-        float angle = UnityEngine.Random.Range(0f, 2f * Mathf.PI);
-        Vector2 randomPoint = new Vector2(centerX + Mathf.Cos(angle) * radius, centerY + Mathf.Sin(angle) * radius);
+        float angleCircle = UnityEngine.Random.Range(0f, 2f * Mathf.PI);
+        Vector2 randomPoint = new Vector2(centerX + Mathf.Cos(angleCircle) * radius, centerY + Mathf.Sin(angleCircle) * radius);
 
         Vector3 posForPoin = new Vector3 (randomPoint[0], randomPoint[1], 0);
         Instantiate (objPoin, posForPoin, Quaternion.identity);
@@ -128,10 +113,13 @@ public class Movement : MonoBehaviour
         return randomPoint;
     }
 
-    void SmoothMovement(Vector2 position){
-        transform.position = Vector2.SmoothDamp(transform.position, position, ref currentVelocity, smoothTime, maxMoveSpeed); 
+    // void SmoothMovement(Vector2 position){
+    //      public float maxMoveSpeed = 0.1f;
+    //      public float smoothTime = 5f;
+    //      Vector2 currentVelocity;
+    //      transform.position = Vector2.SmoothDamp(transform.position, position, ref currentVelocity, smoothTime, maxMoveSpeed); 
     
-    }
+    // }
  
 
     void SmoothAngel(){
