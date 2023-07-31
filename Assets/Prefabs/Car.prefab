@@ -190,6 +190,7 @@ GameObject:
   - component: {fileID: 2514894804850307450}
   - component: {fileID: 8301612038795799444}
   - component: {fileID: 6851038981849006669}
+  - component: {fileID: 7875970026546451255}
   m_Layer: 0
   m_Name: Car
   m_TagString: Car
@@ -359,7 +360,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.64
-  m_Speed: 0.5
+  m_Speed: 0.4
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -502,3 +503,17 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 1
+--- !u!114 &7875970026546451255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7751833376744516813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03d58220db3d92b4181689fb4a8f858f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countPassengers: 0
+  maxCount: 9

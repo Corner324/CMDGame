@@ -5,17 +5,17 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
 
-    //public GameObject hitEffect;
+    public GameObject hitEffect;
 
     private void OnTriggerEnter2D(Collider2D collision) {
-        //GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
-        //Destroy(effect, 5f);
+        GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
+        Destroy(effect, 2.0f);
 
         if (collision != null)
         {
             GameObject collidedObject = collision.gameObject;
             if (collidedObject.tag == "Bullet"){
-                return;
+                // del return
             }
             EnemyLogic enemyLogic = collidedObject.GetComponent<EnemyLogic>();
             if (enemyLogic != null)

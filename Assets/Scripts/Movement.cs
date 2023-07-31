@@ -108,7 +108,8 @@ public class Movement : MonoBehaviour
         Vector2 randomPoint = new Vector2(centerX + Mathf.Cos(angleCircle) * radius, centerY + Mathf.Sin(angleCircle) * radius);
 
         Vector3 posForPoin = new Vector3 (randomPoint[0], randomPoint[1], 0);
-        Instantiate (objPoin, posForPoin, Quaternion.identity);
+        GameObject poin = Instantiate(objPoin, posForPoin, Quaternion.identity);
+        Destroy(poin, 5.0f);
 
         return randomPoint;
     }

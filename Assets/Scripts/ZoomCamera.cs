@@ -7,6 +7,7 @@ public class ZoomCamera : MonoBehaviour
 {   
 
     Vector3 touch; 
+    Vector3 direction;
 
 
     public float minZoom = 2f;
@@ -43,7 +44,7 @@ public class ZoomCamera : MonoBehaviour
 
     void movementCamera()
     {
-        Vector3 direction = touch - Camera.main.ScreenToWorldPoint(Input.mousePosition); 
+        direction = touch - Camera.main.ScreenToWorldPoint(Input.mousePosition); 
         Camera.main.transform.position += direction; 
     }
 }

@@ -50,6 +50,7 @@ public class Shooting : MonoBehaviour
 
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             Quaternion rotation = Quaternion.Euler(0f, 0f, angle);
+            transform.rotation = rotation;
             if (gameObject.tag == "Enemy" || gameObject.tag == "Inf"){
                 bullet = Instantiate(bulletPrefab, firePoint.position, rotation);
                 audioSource.PlayOneShot(soundClipBullet);

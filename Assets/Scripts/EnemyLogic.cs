@@ -22,7 +22,6 @@ public class EnemyLogic : MonoBehaviour
     void Update()
     {
         score.text = health.ToString();
-        print(gameObject.name + " / " + health);
         if (health <= 0){
             audioSource.PlayOneShot(soundClipDeath);
             Destroy(gameObject);
